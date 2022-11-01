@@ -1,4 +1,11 @@
-// require modules for the User Model
+/* 
+Student Name: Brian Duong
+Student ID: 300741880
+Date: October 31st, 2022
+Functionality of the application
+require modules for the User Model
+*/
+
 let mongoose = require("mongoose");
 let passportLocalMongoose = require("passport-local-mongoose");
 

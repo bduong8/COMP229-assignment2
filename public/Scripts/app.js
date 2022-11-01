@@ -1,4 +1,9 @@
-// IIFE -- Immediately Invoked Function Expression
+/* 
+Student Name: Brian Duong
+Student ID: 300741880
+Date: October 31st, 2022
+IIFE -- Immediately Invoked Function Expression
+*/
 (function () {
   function Start() {
     console.log("App Started...");

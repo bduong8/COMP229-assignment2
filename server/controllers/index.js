@@ -1,3 +1,10 @@
+/* 
+Student Name: Brian Duong
+Student ID: 300741880
+Date: October 31st, 2022
+Logic behind the routing of pages
+*/
+
 let express = require("express");
 let router = express.Router();
 let mongoose = require("mongoose");

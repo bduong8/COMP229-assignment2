@@ -1,3 +1,10 @@
+/* 
+Student Name: Brian Duong
+Student ID: 300741880
+Date: October 31st, 2022
+Functionality of the application
+*/
+
 // installed 3rd party packages
 let createError = require("http-errors");
 let express = require("express");

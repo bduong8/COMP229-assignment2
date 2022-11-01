@@ -8,12 +8,12 @@
 
       <form class="form" method="post">
         <div class="from-group">
-          <label for="nameTextField">Contact Title</label>
+          <label for="nameTextField">Name</label>
           <input
             type="text"
             class="form-control"
             id="nameTextField"
-            placeholder="Enter the Contact Title:"
+            placeholder="Enter the name:"
             name="name"
             value="<%= contact.name %>"
             required
@@ -21,60 +21,33 @@
         </div>
 
         <div class="from-group">
-          <label for="authorTextField">Author</label>
+          <label for="authorTextField">Number</label>
           <input
             type="text"
             class="form-control"
-            id="authorTextField"
-            placeholder="Enter the Contact's Author:"
-            name="author"
-            value="<%= contact.author %>"
+            id="numberTextField"
+            placeholder="Enter the phone #:"
+            name="number"
+            value="<%= contact.number %>"
             required
           />
         </div>
 
         <div class="from-group">
-          <label for="publishedTextField">Year</label>
+          <label for="publishedTextField">Email</label>
           <input
             type="text"
             class="form-control"
-            id="publishedTextField"
-            placeholder="Enter the Year of Publication:"
-            name="published"
-            value="<%= contact.published %>"
-            required
-          />
-        </div>
-
-        <div class="from-group">
-          <label for="descTextField">Description</label>
-          <textarea
-            type="text"
-            class="form-control"
-            id="descTextField"
-            placeholder="Enter the Description of Contact:"
-            name="description"
-            required
-          >
-  <%=contact.description%></textarea
-          >
-        </div>
-
-        <div class="from-group">
-          <label for="priceTextField">Price</label>
-          <input
-            type="number"
-            class="form-control"
-            id="pricecTextField"
-            placeholder="Enter the Price of Contact:"
-            name="price"
-            value="<%= contact.price %>"
+            id="emailTextField"
+            placeholder="Enter the email address:"
+            name="email"
+            value="<%= contact.email %>"
             required
           />
         </div>
 
         <button class="btn btn-primary" type="submit">
-          <i class="fas fa-edit"></i>Submit
+          <i class="fas fa-edit"></i>Change
         </button>
 
         <a href="/contact-list" class="btn btn-warning">
