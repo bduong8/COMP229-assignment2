@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/public/Content/app.css">
+  </head>
+  <body>
+    <%- include('./partials/header'); %>
+    <%- include partials/main_nav.ejs %>
+    <main>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="jumbotron">
+            <h1 class="container">About Me</h1>
+            <ul class="textLists">
+                <li>Brian Duong</li>
+                <li><img src="/Assets/images/me.jpg" width="300"></li>
+                <li><p>My name is Brian Duong, a 3rd semester student currently enrolled in the Software
+                Engineering Technology program at Centennial College. I was studied and worked in Accounting prior to making
+                the career change into Software Engineering. My current goal is to develop my knowledge in the variety of technologies
+                that are out there and land a co-op placement for the Winter 2023 semester.</p></li>
+                <li><a href="/Assets/images/Brian Duong's - Resume Fall 2022.pdf">Resume Fall 2022</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="well">
+            <h3>Programming Langauges</h3>
+            <ul>
+                <li>C#</li>
+                <li>C</li>
+                <li>Java</li>
+                <li>JavaScript/HTML/CSS</li>
+                <li>Oracle SQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer><%- include('./partials/footer'); %></footer>
+  </body>
+</html>
